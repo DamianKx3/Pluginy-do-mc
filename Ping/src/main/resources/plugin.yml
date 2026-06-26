@@ -1,0 +1,8 @@
+name: DpxPing
+version: '1.0'
+main: DpX.dpxPing.DpxPing
+api-version: '1.21'
+commands:
+  ping:
+    description: ping i Tps
+    usage: /ping
