@@ -70,7 +70,7 @@ if(mode != 4):
     a = input("leve empty to track all players | type player name to track that player only")
     player = a
     if(mode == 1 or mode == 3):
-        a = input("type anything to invert destroy (plock destroyed will be placed istead, useful when checking if someone has an xray) leave blank to disable")
+        a = input("type anything to invert destroy (block destroyed will be placed istead, useful when checking if someone has an xray) leave blank to disable")
         if(a != ""):
             invert = True
     a = input("target block | leave empty if all | NOTE: if invert is enabled and target block is selected, broken blocks will become target blocks")
